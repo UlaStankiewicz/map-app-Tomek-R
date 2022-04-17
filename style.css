@@ -1,0 +1,47 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+}
+
+label,
+h3 {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.pinId {
+font-size: 20px
+}
+
+.formInputs {
+  padding: 1rem;
+  flex-basis: 250px;
+  height: 100%;
+  overflow: auto;
+}
+
+.map {
+  flex-grow: 1;
+  height: 100%;
+}
